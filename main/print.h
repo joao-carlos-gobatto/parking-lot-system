@@ -25,23 +25,23 @@ void printSystemTable(
     uint32_t receipt_value
     ){
     gotoxy(x,y);
-    printf("HORÁRIO ATUAL:%d", system_time);
+    printf("CURRENT TIME:%d", system_time);
     gotoxy(x,y+1);
-    printf("TOTAL ARRECADADO: R$%"PRIu32"", received_money);
+    printf("TOTAL REVENUE: U$%"PRIu32"", received_money);
     gotoxy(x,y+2);
-    printf("CARROS ESTACIONADOS: %d/%d", parked_cars_quantity, parking_lot_max_capacity);
+    printf("PARKED CARS: %d/%d", parked_cars_quantity, parking_lot_max_capacity);
     gotoxy(x,y+3);
-    printf("TOTAL DE CARROS ATENDIDOS: %d", total_cars);
+    printf("CARS SERVICED: %d", total_cars);
     gotoxy(x,y+4);
-    printf("CARROS NA FILA DE ENTRADA: %d", enter_queue_size);
+    printf("CARS IN LINE AT THE ENTRANCE GATE: %d", enter_queue_size);
     gotoxy(x,y+5);
-    printf("CARROS NA FILA DE SAÍDA: %d", exit_queue_size);
+    printf("CARS IN LINE AT THE EXIT GATE: %d", exit_queue_size);
     gotoxy(x,y+8);
-    printf("ÚLTIMO VEÍCULO A SAIR: %s", receipt_plate);
+    printf("LAST VEHICLE TO LEAVE: %s", receipt_plate);
     gotoxy(x,y+9);
-    printf("TEMPO NO ESTACIONAMENTO: %d SEGUNDOS", receipt_total_time%1000);
+    printf("LAST VEHICLE TIME PARKED: %d SECONDS", receipt_total_time%1000);
     gotoxy(x,y+10);
-    printf("VALOR DA TAXA PAGA: R$%"PRIu32"", receipt_value);
+    printf("LAST VEHICLE PAYED FEE: U$%"PRIu32"", receipt_value);
 }
 
 void printGate( uint8_t x, uint8_t y, char* gate_name, uint8_t *car_plate, uint8_t is_empty){
@@ -90,7 +90,7 @@ void printParkingLot(uint8_t x, uint8_t y){
     gotoxy(x,y);
     printf("╔═══════════════════════════════════════════════╗");
     gotoxy(x,y+1);
-    printf("║           VAGAS DE ESTACIONAMENTO             ║");
+    printf("║                 PARKING SLOTS                 ║");
     gotoxy(x,y+2);
     printf("║                                               ║");
     gotoxy(x,y+3);

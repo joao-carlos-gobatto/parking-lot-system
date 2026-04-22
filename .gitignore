@@ -1,3 +1,6 @@
 build
 .vscode
 .devcontainer
+sdkconfig
+sdkconfig.old
+sdkconfig.ci

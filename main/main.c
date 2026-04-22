@@ -190,8 +190,8 @@ static void systemPrintTask(void* arg){
             receipt.value
         );
 
-        printGate(0,1,"CANCELA DE ENTRADA",car_in_entrance_gate.plate,entrance_gate_is_empty);
-        printGate(0,12," CANCELA DE SAÍDA ",car_in_exit_gate.plate,exit_gate_is_empty);
+        printGate(0,1,"   ENTRACE GATE   ", car_in_entrance_gate.plate, entrance_gate_is_empty);
+        printGate(0,12,"     EXIT GATE    ", car_in_exit_gate.plate, exit_gate_is_empty);
         gotoxy(0,20);
         vTaskDelay(pdMS_TO_TICKS(PRINT_DELAY)); //Button press debouncing treatment.
     }

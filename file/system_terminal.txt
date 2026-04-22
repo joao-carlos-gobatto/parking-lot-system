@@ -1,15 +1,15 @@
 ╔════════════════════╗ ╔═══════════════════════════════════════════════╗
-║ CANCELA DE ENTRADA ║ ║           VAGAS DE ESTACIONAMENTO             ║ HORÁRIO ATUAL: 00:00
-║       JVW0H67      ║ ║ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐ ║ TOTAL ARRECADADO: R$000
-╚════════════════════╝ ║ │       ││VBZ9L00││       ││       ││       │ ║ CARROS ESTACIONADOS: 13/20
-                       ║ └───────┘└───────┘└───────┘└───────┘└───────┘ ║ TOTAL DE CARROS ATENDIDOS: 100
-                       ║ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐ ║ CARROS NA FILA DE ENTRADA: 5
-                       ║ │       ││VBZ9L00││VBZ9L00││       ││       │ ║ CARROS NA FILA DE SAÍDA: 2
+║    ENTRACE GATE    ║ ║                 PARKING SLOTS                 ║ CURRENT TIME: 00:00
+║       JVW0H67      ║ ║ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐ ║ TOTAL REVENUE: U$000
+╚════════════════════╝ ║ │       ││VBZ9L00││       ││       ││       │ ║ PARKED CARS: 13/20
+                       ║ └───────┘└───────┘└───────┘└───────┘└───────┘ ║ CARS SERVICED: 100
+                       ║ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐ ║ CARS IN LINE AT THE ENTRANCE GATE: 5
+                       ║ │       ││VBZ9L00││VBZ9L00││       ││       │ ║ CARS IN LINE AT THE EXIT GATE: 2
                        ║ └───────┘└───────┘└───────┘└───────┘└───────┘ ║
                        ║ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐ ║
                        ║ │VBZ9L00││       ││       ││       ││VBZ9L00│ ║
-                       ║ └───────┘└───────┘└───────┘└───────┘└───────┘ ║ ÚLTIMO VEÍCULO A SAIR: YGD7C38 
-╔════════════════════╗ ║ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐ ║ TEMPO NO ESTACIONAMENTO: 17 SEGUNDOS 
-║  CANCELA DE SAÍDA  ║ ║ │       ││       ││VBZ9L00││       ││VBZ9L00│ ║ VALOR DA TAXA PAGA: R$ 20
+                       ║ └───────┘└───────┘└───────┘└───────┘└───────┘ ║ LAST VEHICLE TO LEAVE: YGD7C38 
+╔════════════════════╗ ║ ┌───────┐┌───────┐┌───────┐┌───────┐┌───────┐ ║ LAST VEHICLE TIME PARKED: 17 SECONDS 
+║     EXIT GATE      ║ ║ │       ││       ││VBZ9L00││       ││VBZ9L00│ ║ LAST VEHICLE PAYED FEE: U$ 20
 ║      YGD7C38       ║ ║ └───────┘└───────┘└───────┘└───────┘└───────┘ ║
 ╚════════════════════╝ ╚═══════════════════════════════════════════════╝
